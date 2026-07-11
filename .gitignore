@@ -1,0 +1,9 @@
+data/
+outputs/checkpoints/
+outputs/*.json
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+wandb/
+*.egg-info/
+.env
