@@ -1,6 +1,6 @@
 data/
 outputs/checkpoints/
-outputs/*.json
+lightning_logs/
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
