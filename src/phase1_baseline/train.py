@@ -89,7 +89,7 @@ def main():
         print(f"[smoke test] using {len(train_ds)} train / {len(val_ds)} val images only")
 
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True,
-                               num_workers=args.num_workers, pin_memory=True)
+                              num_workers=args.num_workers, pin_memory=True, drop_last=True)
     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False,
                              num_workers=args.num_workers, pin_memory=True)
 
