@@ -1,11 +1,11 @@
 {
   "arch": "segformer",
-  "best_val_mean_iou": 0.7054927945137024,
-  "best_val_acc": 0.9867595434188843,
+  "best_val_mean_iou": 0.710424542427063,
+  "best_val_acc": 0.9873794913291931,
   "latency": {
     "gpu": {
-      "mean_ms": 27.253141998662613,
-      "median_ms": 28.682800009846687,
+      "mean_ms": 32.0580080000218,
+      "median_ms": 30.981499992776662,
       "device": "cuda",
       "input_shape": [
         1,
@@ -15,8 +15,8 @@
       ]
     },
     "cpu": {
-      "mean_ms": 306.42889199836645,
-      "median_ms": 313.55039999471046,
+      "mean_ms": 316.49790000054054,
+      "median_ms": 315.6604000250809,
       "device": "cpu",
       "input_shape": [
         1,
@@ -26,5 +26,5 @@
       ]
     }
   },
-  "checkpoint": "D:\\Projects\\New-Ground\\outputs\\checkpoints\\segformer\\best.ckpt"
+  "checkpoint": "D:\\Projects\\New-Ground\\outputs\\checkpoints\\segformer\\best-v1.ckpt"
 }
