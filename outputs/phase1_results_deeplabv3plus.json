@@ -1,11 +1,11 @@
 {
   "arch": "deeplabv3plus",
-  "best_val_mean_iou": 0.6046436429023743,
-  "best_val_acc": 0.976900577545166,
+  "best_val_mean_iou": 0.7241138219833374,
+  "best_val_acc": 0.9870355129241943,
   "latency": {
     "gpu": {
-      "mean_ms": 19.409362000042165,
-      "median_ms": 18.872500000725267,
+      "mean_ms": 17.54588800133206,
+      "median_ms": 16.170900024008006,
       "device": "cuda",
       "input_shape": [
         1,
@@ -15,8 +15,8 @@
       ]
     },
     "cpu": {
-      "mean_ms": 216.04099599993788,
-      "median_ms": 189.94720000046073,
+      "mean_ms": 636.9413200014969,
+      "median_ms": 636.5840000216849,
       "device": "cpu",
       "input_shape": [
         1,
@@ -26,5 +26,5 @@
       ]
     }
   },
-  "checkpoint": "D:\\Projects\\New-Ground\\outputs\\checkpoints\\deeplabv3plus\\best.ckpt"
+  "checkpoint": "D:\\Projects\\New-Ground\\outputs\\checkpoints\\deeplabv3plus\\best-v1.ckpt"
 }
