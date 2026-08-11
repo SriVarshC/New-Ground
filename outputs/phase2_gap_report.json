@@ -1,0 +1,16 @@
+{
+  "phenobench_val_mean_iou": 0.7549226880073547,
+  "cropandweed_mean_iou": 0.15253022762766133,
+  "coverage_expansion_gap": 0.6023924603796934,
+  "gap_percentage": 79.7952518780075,
+  "cropandweed_detail": {
+    "mean_iou": 0.15253022762766133,
+    "pixel_accuracy": 0.42111295567635665,
+    "iou_per_class": {
+      "background": 0.4188599601369183,
+      "crop": 0.018041468303069543,
+      "weed": 0.020689254442996206
+    },
+    "num_images_evaluated": 7705
+  }
+}
